@@ -84,12 +84,33 @@ def fetch_student(roll_code, roll_no):
 
     return None
 
+#col1, col2, col3 = st.columns([1, 2, 1])
+#with col2:
+#   st.markdown("## 📋 Bihar Matric Result Fetcher")
+#   st.markdown("<br>", unsafe_allow_html=True)   # adds space
+#   st.markdown("**By Shiksha Sathee**")
+#   st.markdown("[🔴 Subscribe on YouTube](https://youtube.com/@shikshasathee1)")
+
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.markdown("## 📋 Bihar Matric Result Fetcher")
-    st.markdown("<br>", unsafe_allow_html=True)   # adds space
-    st.markdown("**By Shiksha Sathee**")
-    st.markdown("[🔴 Subscribe on YouTube](https://youtube.com/@shikshasathee1)")
+    # Main title in dark yellow, centered
+    st.markdown(
+        "<h2 style='text-align: center; color: #FFD700;'>📋 Bihar Matric Result Fetcher</h2>",
+        unsafe_allow_html=True
+    )
+    
+    # Subtitle in white, centered
+    st.markdown(
+        "<h4 style='text-align: center; color: white;'>By Shiksha Sathee</h4>",
+        unsafe_allow_html=True
+    )
+    
+    # Subscribe link in red, centered
+    st.markdown(
+        "<p style='text-align: center;'><a href='https://youtube.com/@shikshasathee1' style='color: red; text-decoration: none;'>🔴 Subscribe on YouTube</a></p>",
+        unsafe_allow_html=True
+    )
+
 
 st.markdown("---")
 

@@ -86,7 +86,8 @@ def fetch_student(roll_code, roll_no):
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.markdown("### 📋 Bihar Matric Result Fetcher")
+    st.markdown("## 📋 Bihar Matric Result Fetcher")
+    st.markdown("<br>", unsafe_allow_html=True)   # adds space
     st.markdown("**By Shiksha Sathee**")
     st.markdown("[🔴 Subscribe on YouTube](https://youtube.com/@shikshasathee1)")
 

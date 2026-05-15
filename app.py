@@ -98,11 +98,6 @@ with col2:
         "<h2 style='text-align: center; color: #FFD700;'>📋 Bihar Matric Result Fetcher</h2>",
         unsafe_allow_html=True
     )
-    st.markdown(
-        "<h3 style='text-align: center; color: #FFD700;'>📋 Bihar Matric Result Fetcher</h3>",
-        unsafe_allow_html=True
-    )
-    
     # Subtitle in white, centered
     st.markdown(
         "<h4 style='text-align: center; color: white;'>By Shiksha Sathee</h4>",

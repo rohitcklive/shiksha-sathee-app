@@ -100,7 +100,7 @@ with col2:
     with st.form("fetch_form", clear_on_submit=False):
         roll_code = st.text_input(
             "Roll Code",
-            placeholder="e.g., 31445",
+            placeholder="e.g., 51801",
             max_chars=10,
             help="Your school's unique roll code"
         )
